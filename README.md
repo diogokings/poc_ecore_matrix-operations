@@ -34,8 +34,8 @@ Follow this steps below to complete the environment configuration into Windows
         - Example: curl -POST -F file_type=CSV -F file=@/C/env/repo/resources/matrix.csv "localhost:8082/v1/echo" 
 
 7. Sending a Request to the Server - by Postman
-    - This step-by-step maybe will be better explained by the example showed in the below link 
-    - https://stackoverflow.com/a/50531746
+    - This step-by-step maybe will be better explained by the example showed in the below link:
+        - https://stackoverflow.com/a/50531746
 
 8. File Expected
     - The file must be an CSV, where the number of lines and columns must be equals, also known as a square matrix.
@@ -48,9 +48,9 @@ Follow this steps below to complete the environment configuration into Windows
         ```
 
 9. Endpoints
-    There are 5 endpoints available:
-    - /echo -> Return the matrix as a string in matrix format.
-    - /invert -> Return the matrix as a string in matrix format, where the columns and rows are inverted
-    - /flatten -> Return the matrix as one line string, with values separated by commas.
-    - /sum -> Return the sum of the integers in the matrix
-    - /multiply -> Return the product of the integers in the matrix
+    - There are 5 endpoints available:
+        - /echo -> Return the matrix as a string in matrix format.
+        - /invert -> Return the matrix as a string in matrix format, where the columns and rows are inverted
+        - /flatten -> Return the matrix as one line string, with values separated by commas.
+        - /sum -> Return the sum of the integers in the matrix
+        - /multiply -> Return the product of the integers in the matrix
